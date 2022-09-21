@@ -1,0 +1,111 @@
+.nav-linkactive
+{
+    color: white !important;
+}
+.carousel-inner img 
+{
+    width: 100%;
+    max-height: 500px;
+    filter: brightness(60%);
+}
+.carousel-inner
+{
+ height: 500px;
+}
+.btnbtn
+{
+  background-color: rgb(51, 228, 51) !important;
+  border-color: rgb(51, 228, 51) !important;
+  border-bottom-color: rgb(51, 228, 51) !important;
+}
+.btnbtn:hover
+{
+  background-color: rgb(21, 143, 21) !important;
+  border-color: rgb(21, 143, 21) !important;
+  border-bottom-color: rgb(21, 143, 21) !important;
+}
+#cc
+{
+    text-align: right;
+}
+.carousel-caption {
+    position: absolute;
+    margin-bottom: 110px;
+    margin-left: 550px;
+    margin-right: -100px;
+    text-align: right;
+  }
+  .btnverde 
+  {
+    margin-right: -200px !important;
+  }
+ #titulo
+ {
+    text-align: center;
+    text-align: middle;
+    margin-top: 10px;
+ }
+ #tarjetas
+ {
+   margin-left: 103px;
+ }
+ .card-title
+ {
+text-align: left;
+ }
+ .card-text
+ {
+    text-align: justify;
+ }
+ .col-md-6
+ {
+  color: white;
+  text-align: left;
+  font-size: small;
+ }
+ #tl
+ {
+  margin-right: 10px;
+ }
+ #exampleFormControlTextarea1
+ {
+  width: 900px;
+  margin-top: 20px;
+  }
+  #tg
+  {
+    color: grey;
+  }
+  .btnen
+  {
+    background-color: rgb(51, 228, 51) !important;
+    border-color: rgb(51, 228, 51) !important;
+    border-bottom-color: rgb(51, 228, 51) !important;
+    margin-top: 10px;
+  } 
+  #name
+  {
+    width: 1130px;
+    justify-content: space-between 0px;
+    margin-left: 200px;
+    margin-top: 5px;
+  }
+  #texta
+  {
+    width: 895px !important;
+    margin-right: 230px !important;
+  }
+  #btnenv
+  {
+    width: 900px !important;
+  }
+  #footer
+  {
+    height: 80px;
+  }
+   #letrasf
+  {
+    margin-top: 10px; 
+    margin-right: 40px;
+    margin-left: 40px;
+  }
