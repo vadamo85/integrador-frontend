@@ -12,6 +12,16 @@
 {
  height: 500px;
 }
+#ant
+{
+  width: 30px;
+  margin-left: 20px;
+}
+#pos
+{
+  width: 30px;
+  margin-right: 20px;
+}
 .btnbtn
 {
   background-color: rgb(51, 228, 51) !important;
