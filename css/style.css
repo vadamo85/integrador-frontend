@@ -1,6 +1,14 @@
-.nav-linkactive
+.nav-link:hover
 {
-    color: white !important;
+  color: white !important;
+}
+#comp
+{
+  color: rgb(52, 243, 52) !important;
+}
+#comp:hover
+{
+  color: greenyellow !important;
 }
 .carousel-inner img 
 {
