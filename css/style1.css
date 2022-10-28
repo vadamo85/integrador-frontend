@@ -1,0 +1,113 @@
+.nav-link:hover
+{
+  color: white !important;
+}
+#comp
+{
+  color: rgb(52, 243, 52) !important;
+}
+#comp:hover
+{
+  color: greenyellow !important;
+}
+.btnt
+  {
+    background-color: rgb(51, 228, 51) !important;
+    border-color: rgb(51, 228, 51) !important;
+    border-bottom-color: rgb(51, 228, 51) !important;
+  } 
+#ant
+{
+  width: 30px;
+  margin-left: 20px;
+}
+#pos
+{
+  width: 30px;
+  margin-right: 20px;
+}
+.btnbtn
+{
+  background-color: rgb(51, 228, 51) !important;
+  border-color: rgb(51, 228, 51) !important;
+  border-bottom-color: rgb(51, 228, 51) !important;
+}
+.btnbtn:hover
+{
+  background-color: rgb(21, 143, 21) !important;
+  border-color: rgb(21, 143, 21) !important;
+  border-bottom-color: rgb(21, 143, 21) !important;
+}
+#cc
+{
+    text-align: right;
+}
+.btnverde 
+  {
+    margin-right: -200px !important;
+  }
+ #titulo
+ {
+    text-align: center;
+    text-align: middle;
+    margin-top: 10px;
+ }
+ #tarjetas
+ {
+  margin-left: 200px !important;  
+  width: 990px;
+ }
+ .col
+ {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ }
+ .personalizada
+ {
+  width: 263px;
+  height: 400px;
+  text-align: center;
+  }
+   .btnenv
+  {
+    background-color: rgb(51, 228, 51) !important;
+    border-color: rgb(51, 228, 51) !important;
+    border-bottom-color: rgb(51, 228, 51) !important;
+    margin-top: 10px;
+  } 
+  .resumen
+  {
+    width: 435px !important;
+    margin-left:230px;
+    margin-bottom: 10px;
+  }
+  .borrar
+  {
+    width:435px !important;
+    margin-left:225px;
+    margin-bottom: 10px;
+  }
+  #completar
+  {
+    width: 1130px;
+    justify-content: space-between 0px;
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #totpag
+  {
+    width: 920px;
+    margin-left: 215px;
+  }
+  #footer
+  {
+    height: 80px;
+  }
+   #letrasf
+  {
+    margin-top: 10px; 
+    margin-right: 40px;
+    margin-left: 40px;
+  }

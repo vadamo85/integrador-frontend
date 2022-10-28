@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Comprá tu ticket</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style1.css" rel="stylesheet">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+<!-- Barra de navegación -->
+         <nav class="navbar navbar-expand-lg" style="background-color: #505152;">
+             <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/codoacodo.png" alt="" height="50">
+                    </a>
+                  <a style="color: white !important;">Conf Bs As</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav"> 
+                      <li class="nav-item">
+                        <a class="nav-link active nav-linkactive" aria-current="page" style="color: rgb(194, 194, 194);" href="#">La conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" style="color:rgb(194, 194, 194) ;" href="#">Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" style="color: rgb(194, 194, 194) ;" href="#">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" style="color: rgb(194, 194, 194) ;" href="#">Conviértete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-success btnbtn" id="btnt" type="button" onclick="window.location.href='comprartickets.html'">Comprar Tickets</button>
+                      </li>
+                    </ul>
+                  </div>
+             </div>
+          </nav>
+  <br>
+<!-- Tarjetas -->
+         <div class="row row-cols-1 row-cols-md-3 container" id="tarjetas">
+            <div class="col">
+              <div class="card h-100 card border-primary personalizada">
+                <br>
+                 <h5>Estudiante</h5>
+                 <p>Tienen un descuento</p>
+                 <p><b>80%</b></p>
+                 <p>*Presentar documentación</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 card border-success personalizada">
+                <br>
+                <h5>Trainee</h5>
+                 <p>Tienen un descuento</p>
+                 <p><b>50%</b></p>
+                 <p>*Presentar documentación</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100card border-warning personalizada">
+                <br>
+                <h5>Junior</h5>
+                 <p>Tienen un descuento</p>
+                 <p><b>15%</b></p>
+                 <p>*Presentar documentación</p>
+              </div>
+             </div>
+          </div>
+<!-- Formulario -->
+    <div id="titulo">
+      <h6>VENTA</h6>
+      <h2>VALOR DEL TICKET $200</h2>
+    </div>
+   <form>
+    <div class=" row container"id="completar">
+     <div class="col-md-5" style="margin-top: 10px; margin-bottom: 10px;">
+       <input type="name" class="form-control" value="" id="nombre" required placeholder="Nombre">
+     </div>
+     <div class="col-md-5"style="margin-top: 10px; margin-bottom: 10px;">
+        <input type="name" class="form-control" value="" id="apellido" required placeholder="Apellido">
+     </div>
+     <div class="col-md-10">
+        <input type="email" class="form-control" value="" id="correo" required placeholder="Correo">
+     </div>
+   </div>
+   <div class="row container" id="completar">
+       <div class="col-md-5" >
+        <p style="margin-bottom: 5px">Cantidad</p>
+        <input type="name" class="form-control" value="" id="cantidad"  required placeholder="Cantidad" style="margin-bottom:10px">
+       </div>
+       <div class="col-md-5">
+        <p style="margin-bottom: 5px">Categoría</p>
+        <select class="form-select" aria-label="Default select example" style="margin-bottom:10px" id="categoria" required>
+          <option selected disabled>--Seleccione--</option>
+          <option value="0">Sin Categoría</option>
+          <option value="1">Estudiante</option>
+          <option value="2">Trainee</option>
+          <option value="3">Junior</option>
+        </select>
+       </div>
+   </div>
+   <div class=" row container"id="totpag">
+      <div class="alert alert-primary" role="alert" id="totalt">
+        Total a pagar: $
+      </div>
+   </div>
+  <div class="row container">
+    <button class="btn btn-success btnbtn btnverde col-md-5 borrar" id="borrar" type="reset">Borrar</button>
+    <button class="btn btn-success btnbtn btnverde col-md-5 resumen" id="resumen" type="button">Resumen</button>
+  </div>
+</form>
+  <br>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./JS/calculadora.js"> </script>
+</body>
+<footer>
+  <!-- Footer -->
+  <nav class="navbar navbar-expand-lg" id="footer" style="background-color: #115277;">
+    <div class="container container-fluid">
+       <div class="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
+           <ul class="navbar-nav"> 
+             <li class="nav-item">
+               <a class="nav-link active nav-linkactive" aria-current="page" style="color: white;"  href="#">Preguntas 
+                <br>
+                frecuentes</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" style="color: white !important;" id="letrasf" href="#">Contáctanos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" aria-current="page" style="color: white !important;" id="letrasf" href="#">Prensa</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" style="color: white !important;"id="letrasf" href="#">Conferencias</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" style="color: white !important;" href="#">Términos y 
+                <br>
+                condiciones</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" style="color: white !important;" id="letrasf" href="#">Privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white !important;" id="letrasf"href="#">Estudiantes</a>
+            </li>
+           </ul>
+         </div>
+    </div>
+ </nav>
+</footer>
+</html>
